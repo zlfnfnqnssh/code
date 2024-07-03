@@ -1,288 +1,184 @@
-<!--<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Web Page!</title>
-</head>
-<body>
-   
-    <p>나의 첫 번째 웹 페이지</p>
-</body>
-</html>
-
-<a href="https://www.naver.com" target="_blank" title="네이버">네이버</a>
-<br>
-
-<br>
-<img src="./네이버 이미지.png" alt="이건 네이버 사진이다">
-
-<a href="https://www.naver.com">
-    <img src="./네이버 이미지.png" alt="이건 네이버 사진이다">
-</a>
-
-<p>이 시설은 <strong>관계자 외 출입금지</strong>입니다 <br></p>
-<p>이 시설은 <em>관계자 외 출입금지</em></eem>입니다<br></p>
-
-<form action="서버 url" method="get 또는 post"><br></form>
-<input type="text"> 한 줄 텍스트를 입력할 수 있는 요소 <br>
-<input type="password"> 비밀번호를 입력할 수 있는 요소 <br>
-<input type="tel"> 전화번호 형식을 입력할 수 있는 요소 <br>
-<input type="number"> 숫자만 입력할 수 있는 요소 <br>
-<input type="url"> url 주소 형식을 입력할 수 있는 요소 <br>
-<input type="search"> 검색용 텍스트를 입력할 수 있는 요소 <br>
-<input type="email"> 이메일 형식을 입력할 수 있는 요소 <br>
-<input type="checkbox"> 체크박스 요소 <br>
-<input type="radio"> 라디오버튼 생성 <br>
-<input type="file"> 파일 업로드 요소 생성 <br>
-<input type="button"> 버튼 요소 <br>
-<input type="image" src="./KakaoTalk_20240507_213749827.jpg"> 이미지로 버튼 요소 생성<br>
-<input type="hidden"> 사용자 눈에 보이지 않은 입력 요소 <br>
-<input type="date"> 날짜(년,월,일)를 선택할 수 있는 요소 <br>
-<input type="datetime-local"> 시간대에 맞는 날짜(연,월,일,시,분)를 선택할 수 있는 입력 요소 <br>
-<input type="month"> 날짜(연,월)를 선택할 수 있는 입력 요소 <br>
-<input type="week"> 날짜(연,주차)를 선택할 수 있는 입력 요소 <br>
-<input type="time"> 시간을 선택할 수 있는 입력 요소 <br>
-<input type="range"> 숫자 범위를 선택할 수 있는 슬라이드 요소 <br>
-<input type="color"> 색상을 선택할 수 있는 요소 <br>
-<input type="submit"> 폼 전송 역할을 하는 버튼 요소 <br>
-<input type="reset"> 폼 요소에 사용자가 입력한 값을 초기화하는 버튼 요소 <br>
-
-<label>여기 눌러도 됨 <input type="text">여기도<br> </label>
-<label for="이거">여기 눌러도 됨</label> <input type="text"id="이거"><br> 
-
-<label for="요거">여기 눌러도 됨 <input type="text" id="요거">여기도<br> </label>
-
-
-<form>
-    <fieldset>
-        <legend>기본정보</legend>
-        <label for="id">id <input type="text" id="id"><br> </label>
-        <label for="pw">pw <input type="text" id="pw"><br> </label>
-    </fieldset>
-</form>
-
-<form>
-    <fieldset>
-        <legend>기본정보</legend>
-        <label for="id">id <input type="text" id="id"><br> </label>
-        <label for="pw">pw <input type="text" id="pw"><br> </label>
-        <textarea></textarea>
-    </fieldset>
-</form>
-
-<form>
-    <select size="4" multiple>
-        <optgroup label="성별"> 
-            <option value="male">남</option>
-            <option value="female">여</option>
-            <option value="good" selected>good</option>
-        </optgroup>
-       
-    </select>
-    <input type="text" placeholder="암것도 없어용가륑~" maxlength="5" />
-    <button disabled type="button">이거지연</button>
-    <input type="checkbox" checked>
-</form>
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <table border="1">
-            <caption> 표입니다 </caption>
-            <col style="width: 80px">
-            <colgroup span="2" style="width: 150px"></colgroup>
-            <col style="width: 100px">
-            <thead>
-                <tr>
-                    <th>번호</th>
-                    <th>이름</th>
-                    <th>수</th>
-                    <th>가격</th>
-                </tr>
-            </thead>
-            <tfoot>
-                <tr>
-                    <td>3</td>
-                    <td colspan="3">ㄷ</td>
-                </tr>
-            </tfoot>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>ㅂ</td>
-                    <td>3</td>
-                    <td>1555</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>ㅈ</td>
-                    <td>6</td>
-                    <td rowspan="2">12456</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>ㄷ</td>
-                    <td>7</td>
-                    
-                </tr>
-            </tbody>
-   
-    </table>
-</body>
-</html>
-
-
-
-
-
-<body>
-   <audio controls>
-    <source src="./2021 아이유 노래모음.mp3" type="audio/mp3">
-   </audio>
-  </body>
-
-  <body>
-    <header></header>
-    <nav></nav>
-    <section>
-        <h2>제목</h2>
-    </section>
-    <article></article>
-    <aside></aside>
-    <footer></footer>
-    <main></main>
-    
-   </body>
-
-
-
-
-   <!DOCTYPE html>
-   <html lang="en">
-   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>css 문법</title>
-
-    <style>
-      input[type='checkbox'] {
-        color: red;
-        }
-     
-
-    </style>
-   </head>
-   <body>
-<input type="checkbox" class="input">
-   </body>
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>x텍스트 속성</title>
-   <style>
-    .block1 {
-        border: 1px, solid, red;
-        width: 100px;
-        height: 100px;
-        box-sizing: border-box;
-        display: inline;
-    }
-    .block2 {
-        margin-top: 200px;
-        display: inline;
-    }
-      </style>
+    <title>용가륑~~</title>
+    <link rel="stylesheet" href="./qqweq.css">
 </head>
 <body>
-    <p class="block1">block 1 </p>
-    <p class="block2">block 2 </p>
-    <span class="inline1">inline 1</span>
-    <span class="inline2">inline 2</span>
-</body>
-</html>
+    <header>
+        <p class="main-title">용가륑~~</p>
+    </header>
+    <nav>
+        <div class="container1">
+            <div class="nav-item">
+                <a id="tistory" href="https://yonggaring.tistory.com/">
+                    <img src="./티스토리.jpg" alt="블로그">
+                </a>
+                <p>블로그</p>
+            </div>
+            <div class="nav-item">
+                <a id="instagram" href="https://www.instagram.com/dkssudgktpdydrkfnld0_0/">
+                    <img src="./인스타.jpg" alt="인스타">
+                </a>
+                <p>인스타그램</p>
+            </div>
+            <div class="nav-item">
+                <a id="extra" href="https://map.naver.com/p/entry/place/1433528602?lng=126.7732619&lat=37.6546053&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh">
+                    <img src="./저텐.jpg" alt="저스트텐동">
+                </a>
+                <p>알바</p>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <div class="book1">
+                <div class="section-item">
+                    <a id="tistory" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=274077938" target="_blank">
+                        <div class="img-wrapper">
+                            <img src="./오늘밤.jpg" alt="">
+                            <img src="./happy.png" class="hover-img">
+                        </div>
+                    </a>
+                    <h3><p class="default-text">오늘 밤, 세계에서 <br> 이 사랑이 사라진다 해도</p></h3>
+                    <h3><p class="hover-text">happy 보남</p></h3>
+                </div>
+                <div class="section-item">
+                    <a id="tistory" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=220112" target="_blank">
+                        <div class="img-wrapper">
+                            <img src="./좀머씨.jpg" alt="책 1">
+                            <img src="./입.틀.막.png" class="hover-img">
+                        </div>
+                    </a>
+                    <h3><p class="default-text">좀머 씨 이야기</p></h3>
+                    <h3><p class="hover-text">입.틀.막. 보남</p></h3>
+                </div>
+                <div class="section-item">
+                    <a id="tistory" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=294425135" target="_blank">
+                        <div class="img-wrapper">
+                            <img src="./기차역.jpg" alt="책 1">
+                            <img src="./슬프게 되.png" class="hover-img">
+                        </div>
+                    </a>
+                    <h3><p class="default-text">세상의 마지막 기차역</p></h3>
+                    <h3><p class="hover-text">슬픈 보남</p></h3>
+                </div>
+            </div>
+            <br>
+            <audio controls src="./오늘 밤이 지나면 - 신예영ㅣ[Lyrics _ 가사].mp3"></audio>
+            <div class="book2">
+                <div class="section-item">
+                    <a id="tistory" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=288204472" target="_blank">
+                        <div class="img-wrapper">
+                            <img src="./고양이.jpg" alt="책 1">
+                            <img src="./메타몽이 되.jpg" class="hover-img">
+                        </div>
+                    </a>
+                    <h3><p class="default-text">보름달 커피점의 <br> 고양이 별점술사</p></h3>
+                    <h3><p class="hover-text">메타몽 보남</p></h3>
+                </div>
+                <div class="section-item">
+                    <a id="tistory" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=303333325" target="_blank">
+                        <div class="img-wrapper">
+                            <img src="./너.jpg" alt="책 1">
+                            <img src="./살려줘.png" class="hover-img">
+                        </div>
+                    </a>
+                    <h3><p class="default-text">내가 사랑했던 모든 너에게, <br> 너를 사랑했던 한 사람의 나에게</p></h3>
+                    <h3><p class="hover-text">살려줘 보남</p></h3>
+                </div>
+                <div class="section-item">
+                    <a id="tistory" href="https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EB%A6%AC%ED%8B%80+%EB%9D%BC%EC%9D%B4%ED%94%84" target="_blank">
+                        <div class="img-wrapper">
+                            <img src="./리틀라이프.jpg" alt="책 1">
+                            <img src="./앙기모띠.jpg" class="hover-img">
+                        </div>
+                    </a>
+                    <h3><p class="default-text">리틀 라이프</p></h3>
+                    <h3><p class="hover-text">앙기모띠 보남</p></h3>
+                </div>
+            </div>
+        </section>
 
+        <section2>
+            <div class="book1">
+                <div class="section-item">
+                        <div class="img-wrapper">
+                            <img src="./치즈1.jpg" alt="">
+                            <img src="./치즈2.jpg" class="hover-img">
+                        </div>
+                    </a>
+                    <h3><p class="default-text">레이</p></h3>
+                    <h3><p class="hover-text">치즈</p></h3>
 
+                </div>
+                <div class="section-item">
+                        <div class="img-wrapper">
+                            <img src="./구마2.jpg" alt="책 1">
+                            <img src="./구마1.jpg" class="hover-img">
+                        </div>
+                    </a>
+                    <h3><p class="default-text">밤이</p></h3>
+                    <h3><p class="hover-text">고구마</p></h3>
 
+                </div>
+                <div class="section-item">
+                        <div class="img-wrapper">
+                            <img src="./모1.jpg" alt="책 1">
+                            <img src="./모2.jpg" class="hover-img">
+                        </div>
+                    </a>
+                    <h3><p class="default-text">모래</p></h3>
+                    <h3><p class="hover-text">모래</p></h3>
 
+                </div>
+            </div>
+            <br><br><br><br><br>
+            <div class="book2">
+                <div class="section-item">
+                        <div class="img-wrapper">
+                            <img src="./테산2.jpg" alt="책 1">
+                            <img src="./태산1.jpg" class="hover-img">
+                        </div>
+                    </a>
+                    <h3><p class="default-text">단단이</p></h3>
+                    <h3><p class="hover-text">테산</p></h3>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>문제 2</title>
-</head>
-<body>
-<form>
- <fieldset>
-    <a href="https://www.naver.com">
-        <img src="./KakaoTalk_20240507_213749827.jpg" alt="잠만보남">
-         </a> 저 사진이 없어서 대체함
-         <br>
-     <p><strong>or</strong></p>
-     <input type="text" name="id" id="id" placeholder="Username"><br>
-     <input type="password" name="password" id="id" placeholder="password"><br>
-    <button>LOGIN</button> <br> 
-     <button> <strong>Forget your password?</strong></button>
- </fieldset>
-</form>
-</body>
-</html>
--->
+                </div>
+                <div class="section-item">
+                        <div class="img-wrapper">
+                            <img src="./돈1.jpg" alt="책 1">
+                            <img src="./돈2.jpg" class="hover-img">
+                        </div>
+                    </a>
+                    <h3><p class="default-text">루시</p></h3>
+                    <h3><p class="hover-text">돈까스</p></h3>
 
+                </div>
+                <div class="section-item">
+                        <div class="img-wrapper">
+                            <img src="./따지2.jpg" alt="책 1">
+                            <img src="./따지1.jpg" class="hover-img">
+                        </div>
+                    </a>
+                    <h3><p class="default-text">루팡</p></h3>
+                    <h3><p class="hover-text">돈 땃지미</p></h3>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .box {
-            width: 100px;
-            height: 100px;
-            background-color: red;
-            transition-property: background-color, width;
-            margin-bottom: 10px;
-            transition-duration: 2s;
-            transition-delay: 3s;
-            transition-timing-function: linear;
-            transition: background-color 2s linear 3s, width 2s linear 3s;
-
-        }
-        body:hover .box{
-            width: 300px;
-            background-color: blue;
-
-        }
-
-        </style>
-</head>
-<body>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    
+                </div>
+            </div>
+        </section2>
+    </main>
+    <aside>
+        <div class="container2">
+            <a class="youtube" href="https://www.youtube.com/@hejin0_0" target="_blank"><img src="./헤징.jpg" alt="헤징유튜브"></a>
+            <a class="youtube" href="https://www.youtube.com/@%EC%A3%BC%EB%91%A5%EC%9D%B4%EB%B0%A9%EC%86%A1" target="_blank"><img src="./주둥이.jpg" alt="주둥이유튜브"></a>
+            <a class="youtube" href="https://www.youtube.com/@%EB%A6%AC%EB%B7%B0%ED%95%98%EB%8A%94%ED%9A%8C%EC%82%AC%EC%9B%90" target="_blank"><img src="./회사원.jpg" alt="리뷰하는회사원유튜브"></a>
+        </div>
+    </aside>
+    <footer>
+        <p> 용가륑~~</p>
+    </footer>
 </body>
 </html>
